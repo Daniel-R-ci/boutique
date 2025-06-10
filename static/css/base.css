@@ -38,6 +38,12 @@ body {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
 
 
 .shop-now-button:hover,
@@ -61,6 +67,7 @@ body {
 .bg-black {
     background: #000 !important;
 }
+
 
 .overlay{
     height: 100%;
