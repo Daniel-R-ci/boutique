@@ -198,7 +198,7 @@ if 'USE_AWS' in os.environ:
     STATICFILES_STORAGE = 'custom_storages.StaticStorage'
     STATICFILES_LOCATION = 'static'
     DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
-    DEFAULT_FILE_LOCATION = 'media'
+    MEDIAFILES_LOCATION = 'media'
 
     # OVerride static and media URLS in production
     STATIC_URL = f'http://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}'
